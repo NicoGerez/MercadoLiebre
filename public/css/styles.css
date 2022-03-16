@@ -1,0 +1,132 @@
+@import url('normalize.css');
+/*Body*/
+body{font-family: 'Roboto', sans-serif;
+    text-align: center;}
+
+/*Header*/
+header nav{
+        font-size: 13px;
+        text-align: left;   
+}
+header{
+    background-color: #EAC926;
+}
+header img{
+    width: 50%;
+}
+
+p{font-size: 12px;}
+.titu {font-size: 24px;}
+.precio {font-size: 18px;}
+.descuento {font-size: 16px;}
+.descripcion {font-size: 16px;}
+.compracuotas{text-align: center;}
+.fa-hand-holding-dollar{font-size: 2rem;}
+.fa-arrow-right-to-bracket{font-size: 2rem; color: black;}
+.fa-basket-shopping{font-size: 2rem; color: black;}
+.fa-address-card{font-size: 2rem; color: black}
+.ofertas{font-size: 24px;}
+.tiendas{font-size: 24px;}
+.vender{font-size: 24px;}
+.ayuda{font-size: 24px;}
+.crea-cuenta{font-size: 24px;}
+.ingresa{font-size: 24px;}
+.mis-compras{font-size: 24px;}
+.fa-magnifying-glass{font-size: 2rem;}
+
+ul{list-style-type: none;}
+
+
+img{
+    width: 100%;
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: center;
+}
+.burger-menu i{
+background-color: blue;
+padding: 10px;
+border-radius: 5px;
+display:inline;
+margin: auto 0;
+}
+
+main {
+    margin: auto;
+    width:90vw;
+    background-color:#fff;
+    margin: 10px;
+    padding: 15px;
+    display: block;
+}
+footer{
+    text-align: center;
+}
+.fa-credit-card{font-size: 2rem;
+color: #1259c3;}
+.fa-gift{font-size: 2rem;
+color: #1259c3;}
+.fa-user-shield{font-size: 2rem;
+color: #1259c3;}
+.copyright{text-align: left;}
+
+/* Adaptative */
+
+@media(min-width:361px){
+    .descripciones{
+        display:block;
+    }
+    nav{
+        display: block;
+    }
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+}
+
+@media(min-width:481px){
+    .descripciones{
+        display:block;
+    }
+    nav{
+        display: block;
+    }
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+}
+
+@media(min-width:769px){
+.descripciones{
+    display:block;
+}
+nav{
+    display: block;
+}
+main section article{
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+.burger-menu {
+    display: none;      
+}
+.top{
+    display: flex;
+}
+.top2{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+.listed{
+    font-size: 16px;
+}
+.izquierda{
+text-align:left;}
+.footers{display: flex;}
+
+}
+
